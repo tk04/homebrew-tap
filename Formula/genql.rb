@@ -7,15 +7,15 @@ class Genql < Formula
   if OS.mac?
     if Hardware::CPU.arm? || Hardware::CPU.in_rosetta2?
       url "https://github.com/tk04/genql/releases/download/#{version}/genql-darwin-arm64.zip"
-      sha256 "9fa682b2a30d556d1201c78bbbaee89870185da1b6c3914c9980296fe98b65a7"
+      sha256 "3eea89213bb325e0f3d4833f500b5ab250746e70b20732107f7284117bd8e427"
     elsif Hardware::CPU.avx2?
       url "https://github.com/tk04/genql/releases/download/#{version}/genql-darwin-amd64.zip"
-      sha256 "b9266a18a5e7e28534a3407e34f0b0bd31bf7de32840ef7263e308596a97fb6b" 
+      sha256 "f420f1347e0249805b8121f0cc3f56042844fc4accd51ad1e77a6e9e26c759f0" 
     end
   elsif os.linux?
     if hardware::cpu.avx2?
       url "https://github.com/tk04/genql/releases/download/#{version}/genql-linux-amd64.zip"
-      sha256 "b6f2fd06d0cae630883c9d45a33733147893c7ed87625f94adf4acdaa0308464" 
+      sha256 "dded5fb1033d249552ea4949b1e0b990cb279cc9f2f4ecc49ff2bd67d4863fc8" 
     end
   else
     odie "Unsupported platform"
