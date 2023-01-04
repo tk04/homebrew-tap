@@ -11,6 +11,6 @@ $ brew upgrade genql
 ```
 # Uninstall
 ```
-$ brew untap tk04/genql
 $ brew uninstall genql
+$ brew untap tk04/genql
 ```
