@@ -1,16 +1,10 @@
-# homebrew-genql
-Homebrew tap for <a href="https://github.com/tk04/genql">genql</a>
-# Install
+# homebrew-tap
+Homebrew tap for my apps
+### Install [Marker](https://github.com/tk04/marker)
 ```
-$ brew tap tk04/genql
-$ brew install genql
+$ brew install --cask tk04/tap/marker
 ```
-# Upgrade
+### Install [genql](https://github.com/tk04/genql)
 ```
-$ brew upgrade genql
-```
-# Uninstall
-```
-$ brew uninstall genql
-$ brew untap tk04/genql
+$ brew install tk04/tap/genql
 ```
